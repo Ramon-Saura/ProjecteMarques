@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foot Truck</title>
+    <link rel="icon" href="./img/logo_foot_truck.png" />
+    <link rel="stylesheet" href="../css/login-pwd.css" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <h1>Food Truck</h1>
+      <form action="#" method="post">
+        <label for="user">Usuario o E-mail</label>
+        <input type="text" name="user" id="user" />
+        <br />
+        <br />
+        <label for="pssw">Contrase&ntilde;a</label>
+        <input type="password" name="pssw" />
+      </form>
+      <br /><br />
+      <a href="./nuevo_pwd.html">He olvidado mi contrase&ntilde;a</a>
+      <br /><br />
+      <button
+        onclick="changePage('../index'), alert('Bienvenido '+document.getElementById('user').value)"
+      >
+        Enviar
+      </button>
+      <br /><br />
+      <button class="button-bottom" onclick="changePage('../index')">
+        Volver al indice
+      </button>
+    </main>
+  </body>
+  <script src="../js/functions.js"></script>
+</html>

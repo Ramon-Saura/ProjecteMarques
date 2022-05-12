@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foot Truck</title>
+    <link rel="icon" href="./img/logo_foot_truck.png" />
+    <link rel="stylesheet" href="../css/login-pwd.css" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <h1>Food Truck</h1>
+      <form action="#" method="post">
+        <label for="user">Usuario o E-mail</label>
+        <input type="text" name="user" id="user" />
+        <p>
+          Ponga aqu&iacute; su correo electr&oacute;nico y se enviar&aacute; un
+          link para cambiar su contrase&ntilde;a
+        </p>
+      </form>
+      <br /><br />
+      <button
+        onclick="changePage('./login'), alert('Se ha enviado un link de confirmación a su correo electrónico')"
+      >
+        Enviar
+      </button>
+      <br /><br />
+      <button class="button-bottom" onclick="changePage('../index')">
+        Volver al indice
+      </button>
+    </main>
+  </body>
+  <script src="../js/functions.js"></script>
+</html>
